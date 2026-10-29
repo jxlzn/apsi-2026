@@ -1,0 +1,1 @@
+<p class="more reveal"><i>The full APSI report explores these findings in greater depth, with detailed analysis of individual reporting practices and comparisons across the 14 jurisdictions assessed. You can find the full report at xxx. Alternatively, you can view the summary report from NUS at xxx.</i></p>
