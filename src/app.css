@@ -91,8 +91,9 @@ a:hover { color: var(--blue); }
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); white-space: nowrap; }
 .brand__mark {
-  display: grid; place-items: center; width: 34px; height: 34px;
-  background: var(--blue); color: #fff; font: 800 15px/1 var(--display); letter-spacing: -.02em;
+  display: grid; place-items: center; height: 34px; padding: 0 10px;
+  background: var(--blue); color: #fff; font: 800 14px/1 var(--display); letter-spacing: -.01em;
+  white-space: nowrap;
 }
 .brand__text { font: 500 15px/1 var(--display); letter-spacing: .02em; }
 .brand__text b { font-weight: 700; }
@@ -152,23 +153,16 @@ a:hover { color: var(--blue); }
 .hero__title span {
   display: block; margin-top: 16px; font-size: .42em; letter-spacing: -.02em; color: var(--blue-25);
 }
-.hero__partner { max-width: 34ch; margin: 22px 0 0; font-size: 17px; line-height: 1.5; color: var(--blue-5); }
+.hero__partner { max-width: 600px; margin: 28px 0 0; font-size: 17px; line-height: 1.5; color: var(--blue-5); }
 .hero__stats {
-  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0;
-  margin: 40px 0 0; max-width: 600px; border-top: 1px solid rgba(255,255,255,.35);
+  display: grid; grid-template-columns: 1.05fr 0.9fr 1.25fr 1.85fr; gap: 0;
+  margin: 40px 0 0; max-width: 720px; border-top: 1px solid rgba(255,255,255,.35);
 }
 .hero__stats div { padding: 20px 20px 0 0; }
 .hero__stats dd { order: -1; margin: 0; font: 800 clamp(34px, 3.8vw, 52px)/1 var(--display); letter-spacing: -.03em; }
 .hero__stats div { display: flex; flex-direction: column; gap: 8px; }
 .hero__stats dt { font-size: 14px; line-height: 1.35; color: var(--blue-5); }
 .hero__stats small { display: block; color: var(--blue-25); }
-.hero__cta {
-  display: inline-flex; gap: 10px; align-items: center; margin-top: 36px; padding: 14px 22px;
-  background: #fff; color: var(--blue-deep); text-decoration: none; font: 600 15px/1 var(--display);
-  border-radius: 999px; transition: transform .2s, box-shadow .2s;
-}
-.hero__cta:hover { color: var(--blue-deep); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.18); }
-
 /* ---------- Sections ---------- */
 .section { padding: 120px 0; position: relative; }
 .section--tint { background: var(--blue-5); }
@@ -245,6 +239,57 @@ a:hover { color: var(--blue); }
 .legend i { width: 14px; height: 14px; display: inline-block; }
 .legend i.dash { height: 0; width: 18px; border-top: 2px dashed var(--ink); }
 
+.chart--map { overflow-x: auto; }
+.score-map { position: relative; min-width: 760px; }
+.score-map svg { display: block; width: 100%; height: auto; }
+.score-map__sea { fill: var(--blue-5); }
+.score-map__context { fill: #fff; stroke: #fff; stroke-width: 1.4; stroke-linejoin: round; }
+.score-map__land {
+  fill: var(--blue-25);
+  stroke: #fff;
+  stroke-width: 1.6;
+  stroke-linejoin: round;
+  cursor: pointer;
+  transition: fill .2s;
+}
+.score-map__land.is-on { fill: var(--blue-45); }
+.score-map__leader { stroke: var(--grey-45); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.score-map__leader.is-on { stroke: var(--blue-deep); stroke-width: 1.5; }
+.score-map__pin { fill: var(--blue); stroke: #fff; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.score-map__pin.is-on { fill: var(--blue-deep); }
+.score-map__label {
+  position: absolute;
+  z-index: 1;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  background: #fff;
+  padding: 3px 5px 4px;
+  white-space: nowrap;
+}
+.score-map__label.is-on { z-index: 2; }
+.score-map__nums { display: flex; justify-content: center; gap: 8px; }
+.score-map__nums span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font: 700 15px/1 var(--display);
+  letter-spacing: -.03em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.score-map__nums span::after { content: ""; width: 100%; height: 3px; }
+.score-map__nums span:first-child::after { background: var(--blue-45); }
+.score-map__nums span:last-child::after { background: var(--blue); }
+.score-map__name {
+  display: block;
+  margin-top: 3px;
+  font: 600 11px/1.15 var(--body);
+  letter-spacing: -.01em;
+  color: var(--ink);
+}
+.score-map__label.is-on .score-map__name { color: var(--blue-deep); }
+
 /* horizontal bars */
 .chart-body { --lab: 190px; --val: 64px; --gap: 14px; }
 .hbars { position: relative; display: grid; gap: 12px; }
@@ -270,6 +315,15 @@ a:hover { color: var(--blue); }
 }
 .hbars__axis div { display: flex; justify-content: space-between; border-top: 1px solid var(--grey-15); padding-top: 6px; }
 
+/* grouped columns */
+.cols { overflow-x: auto; }
+.cols__groups { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 6px; }
+.cols__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; align-items: end; height: 220px; border-bottom: 1px solid var(--grey-15); }
+.cols__track { height: 100%; display: flex; align-items: flex-end; }
+.cols__bar { position: relative; width: 100%; height: 0; transition: height 1.2s cubic-bezier(.2,.8,.2,1); }
+.cols__num { position: absolute; left: 50%; bottom: calc(100% + 3px); transform: translateX(-50%); font: 700 10px/1 var(--display); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cols__label { display: block; height: 124px; margin-top: 10px; font-size: 11px; line-height: 1; color: var(--ink); white-space: nowrap; writing-mode: vertical-rl; text-align: left; }
+
 /* range (board involvement) */
 .range { position: relative; padding: 52px 0 40px; }
 .range__track { position: relative; height: 10px; background: linear-gradient(90deg, var(--red-25), var(--blue-25)); border-radius: 5px; }
@@ -285,7 +339,8 @@ a:hover { color: var(--blue); }
 .ring { display: grid; grid-template-columns: 140px 1fr; gap: 20px; align-items: center; }
 .ring svg { width: 140px; height: 140px; transform: rotate(-90deg); }
 .ring circle { fill: none; stroke-width: 3.4; }
-.ring .bg { stroke: var(--grey-5); }
+.ring .bg { stroke: var(--blue-25); }
+.section--tint .ring .bg { stroke: var(--blue-45); }
 .ring .fg, .ring .ex { stroke-dasharray: 0 100; transition: stroke-dasharray 1.4s cubic-bezier(.2,.8,.2,1); }
 .ring__wrap { position: relative; width: 140px; height: 140px; }
 .ring__num { position: absolute; inset: 0; display: grid; place-items: center; font: 800 36px/1 var(--display); letter-spacing: -.03em; }

@@ -1,11 +1,13 @@
 <script>
   import SectionHead from '../components/SectionHead.svelte';
   import Ring from '../charts/Ring.svelte';
+  import Columns from '../charts/Columns.svelte';
+  import { nature } from '../charts/data.js';
 </script>
 
 <section class="section" id="biodiversity">
   <div class="wrap">
-    <SectionHead num="07" title="Biodiversity steps into the spotlight" />
+    <SectionHead num="06" title="Biodiversity steps into the spotlight" />
 
     <div class="split">
       <div class="prose">
@@ -27,12 +29,18 @@
       <p class="reveal">South Korea (60 per cent) and Japan (56 per cent) record the highest shares of TNFD alignment, while markets like New Zealand and Vietnam do not report alignment.</p>
     </div>
 
-    <figure class="reveal">
+    <figure class="chart chart--wide reveal">
       <figcaption class="fig-title"><i>Figure 7: Nature-related disclosures (by jurisdiction)</i></figcaption>
+      <div class="legend">
+        <span><i style="background:var(--blue)"></i>Disclosure of nature- or biodiversity-related issues</span>
+        <span><i style="background:var(--red)"></i>Alignment with TNFD recommendations</span>
+      </div>
+      <Columns rows={nature} />
     </figure>
 
     <div class="prose prose--callout reveal">
-      <p>With the International Sustainability Standards Board (ISSB) advancing its nature-related disclosures project from research to standard-setting and is developing proposed requirements that will supplement IFRS S1 and IFRS S2, drawing on the TNFD framework, companies should begin strengthening their capabilities to <b>identify and assess nature-related dependencies, impacts, risks and opportunities</b> across their operations and value chains.</p>
+      <p>The International Sustainability Standards Board (ISSB) is advancing its nature-related disclosures project from research to standard-setting. It is also developing proposed requirements that will supplement IFRS S1 and IFRS S2, drawing on the TNFD framework.</p>
+      <p>Companies should begin strengthening their capabilities to identify and assess nature-related dependencies, impacts, risks and opportunities across their operations and value chains.</p>
       <p>This could include evaluating their reliance on natural resources and ecosystem services, such as water availability, and assessing potential exposure to biodiversity loss, water stress, and ecosystem degradation. Taking these steps can help businesses better understand their nature-related risks, inform strategic decisions, and prepare for evolving disclosure expectations.</p>
     </div>
   </div>

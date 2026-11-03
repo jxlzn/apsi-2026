@@ -23,9 +23,9 @@
 
 <section class="section" id="methodology">
   <div class="wrap">
-    <SectionHead num="10" title="Research methodology" />
+    <SectionHead num="09" title="Research methodology" />
     <div class="prose">
-      <p class="lead reveal"><i>The Business Times</i> partnered with the Centre for Governance and Sustainability, NUS Business School to launch the Asia Pacific Sustainability Index (APSI), which is designed to provide a benchmark for the sustainability reporting performance of listed companies across Asia Pacific. This is done by evaluating corporate sustainability reporting performance across the region while accounting for structural differences in local regulatory environments.</p>
+      <p class="reveal"><i>The Business Times</i> partnered with the Centre for Governance and Sustainability, NUS Business School to launch the Asia Pacific Sustainability Index (APSI), which is designed to provide a benchmark for the sustainability reporting performance of listed companies across Asia Pacific. This is done by evaluating corporate sustainability reporting performance across the region while accounting for structural differences in local regulatory environments.</p>
       <h3 class="reveal">Research scope</h3>
     </div>
 

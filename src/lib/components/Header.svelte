@@ -43,8 +43,8 @@
 <header class="topbar" class:is-hero={isHero}>
   <div class="topbar__inner">
     <a class="brand" href="#top" aria-label="Back to top">
-      <span class="brand__mark">BT</span>
-      <span class="brand__text">Insights <b>APSI 2026</b></span>
+      <span class="brand__mark">BT Insights</span>
+      <span class="brand__text"><b>APSI 2026</b></span>
     </a>
     <nav class="nav" aria-label="Report sections" bind:this={nav}>
       {#each sections as s, i}

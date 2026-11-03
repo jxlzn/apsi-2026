@@ -22,20 +22,12 @@
       href: '#climate', num: '05', color: 'var(--orange)',
       head: 'The climate depth challenge',
       points: [
-        'Over 80 per cent of firms disclose climate risks and 70 per cent integrate them into their enterprise risk management frameworks but actual depth remains uneven.',
-        '64 per cent of companies run climate scenario analyses but only 28 per cent actually share quantitative financial or operational impact assessments.'
+        'Climate disclosure is relatively well established in strategy and risk management, but only 28 per cent of companies provide quantitative scenario assessments.',
+        'Scope 3 reporting has gone mainstream, with 76 per cent of assessed companies disclosing emissions, though 76 per cent of reporting firms disclose 10 or fewer of the 15 standard categories.'
       ]
     },
     {
-      href: '#scope3', num: '06', color: 'var(--grey)',
-      head: 'Beyond Scope 3 compliance',
-      points: [
-        'Scope 3 reporting has gone mainstream, with 76 per cent of assessed companies now disclosing supply-chain emissions.',
-        "Breadth doesn't equal depth: the vast majority of reporting firms (76 per cent) stop at disclosing 10 or fewer out of the 15 standard categories."
-      ]
-    },
-    {
-      href: '#biodiversity', num: '07', color: 'var(--green)',
+      href: '#biodiversity', num: '06', color: 'var(--green)',
       head: 'Biodiversity steps into the spotlight',
       points: [
         "Biodiversity is finally stepping out of carbon's shadow, with 61 per cent of companies now disclosing nature- or biodiversity-related data.",
@@ -43,7 +35,7 @@
       ]
     },
     {
-      href: '#compliance', num: '08', color: 'var(--red)',
+      href: '#compliance', num: '07', color: 'var(--red)',
       head: 'From compliance to competitive advantage',
       points: [
         'Regulation across the region is steadily tightening and converging around ISSB standards, value-chain emissions, and external assurance requirements.',

@@ -7,7 +7,7 @@
 
 <section class="section section--tint" id="compliance">
   <div class="wrap">
-    <SectionHead num="08" title="From compliance to competitive advantage" />
+    <SectionHead num="07" title="From compliance to competitive advantage" />
     <div class="prose">
       <p class="lead reveal">Regulatory frameworks across Asia Pacific are converging towards around three structural pillars: alignment with the ISSB Standards, expanding expectations for Scope 3 emissions reporting, and the gradual introduction of external assurance requirements.</p>
     </div>
@@ -28,6 +28,8 @@
 
     <div class="prose">
       <p class="reveal">Crucially, the majority of external assurance remains confined to limited-assurance scopes covering basic operational emissions, leaving scenario models, strategy metrics and Scope 3 data largely unverified.</p>
+      <p class="reveal">Specifically, 61 per cent obtain limited assurance, which is the more common form of external assurance across most markets. Limited assurance is particularly prevalent in South Korea (100 per cent), Taiwan (86 per cent), and Australia and New Zealand (both 80 per cent).</p>
+      <p class="reveal">Reasonable assurance is less common across most markets, with India standing out at 96 per cent. This is likely driven by local regulations requiring reasonable assurance over the core elements of the Business Responsibility and Sustainability Report (BRSR).</p>
     </div>
 
     <div class="feature reveal">

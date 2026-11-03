@@ -10,7 +10,7 @@
   <div class="wrap">
     <SectionHead num="04" title="Are corporate boards equipped for sustainability?" />
     <div class="prose">
-      <p class="lead reveal">Sustainability has firmly entered boardroom remits across Asia Pacific. Among assessed companies, 92 per cent disclose formal board responsibility for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.</p>
+      <p class="reveal">Sustainability has firmly entered boardroom remits across Asia Pacific. Among assessed companies, 92 per cent disclose formal board responsibility for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.</p>
     </div>
 
     <figure class="chart reveal">
@@ -31,12 +31,14 @@
     </div>
 
     <div class="rings reveal">
-      <Ring value={55}>tie executive remuneration to sustainability targets</Ring>
-      <Ring value={21} color="red">specify the exact weighting of these metrics</Ring>
+      <Ring value={41}>Disclose specific sustainability-related competencies</Ring>
+      <Ring value={37}>Report sustainability-related training in the past three years</Ring>
+      <Ring value={55}>Tie executive remuneration to sustainability targets</Ring>
+      <Ring value={21} color="red">Specify the exact weighting of these metrics</Ring>
     </div>
 
     <div class="prose">
-      <p class="reveal">Without clear visibility into metric weightings and director capabilities, stakeholders cannot determine whether sustainability commitments carry real board oversight and management accountability.</p>
+      <p class="reveal">Without clear visibility into compensation-link metrics and director capabilities, stakeholders cannot determine whether sustainability commitments carry real board oversight and management accountability.</p>
     </div>
   </div>
 </section>
