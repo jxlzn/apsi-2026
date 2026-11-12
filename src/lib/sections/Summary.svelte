@@ -3,7 +3,7 @@
 
   const takeaways = [
     {
-      href: '#state-of-play', num: '03', color: 'var(--blue)',
+      href: '#state-of-play', color: 'var(--blue)',
       head: 'State of play: High adoption, uneven depth',
       points: [
         'The regional average base score stands at 75.5 out of 100 while the context-adjusted APSI score stands at 78.9 out of 110.',
@@ -11,7 +11,7 @@
       ]
     },
     {
-      href: '#boards', num: '04', color: 'var(--blue-65)',
+      href: '#boards', color: 'var(--blue-65)',
       head: 'Are corporate boards equipped for sustainability?',
       points: [
         '92 per cent of companies report formal board oversight for sustainability but only 41 per cent disclose specific director skills/competencies and 37 per cent report recent sustainability training.',
@@ -19,7 +19,7 @@
       ]
     },
     {
-      href: '#climate', num: '05', color: 'var(--orange)',
+      href: '#climate', color: 'var(--orange)',
       head: 'The climate depth challenge',
       points: [
         'Climate disclosure is relatively well established in strategy and risk management, but only 28 per cent of companies provide quantitative scenario assessments.',
@@ -27,7 +27,7 @@
       ]
     },
     {
-      href: '#biodiversity', num: '06', color: 'var(--green)',
+      href: '#biodiversity', color: 'var(--green)',
       head: 'Biodiversity steps into the spotlight',
       points: [
         "Biodiversity is finally stepping out of carbon's shadow, with 61 per cent of companies now disclosing nature- or biodiversity-related data.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      href: '#compliance', num: '07', color: 'var(--red)',
+      href: '#compliance', color: 'var(--red)',
       head: 'From compliance to competitive advantage',
       points: [
         'Regulation across the region is steadily tightening and converging around ISSB standards, value-chain emissions, and external assurance requirements.',
@@ -49,18 +49,19 @@
   <div class="wrap">
     <SectionHead num="02" title="Executive Summary" />
     <div class="prose">
-      <p class="lead reveal">The Asia Pacific Sustainability Index (APSI) establishes a regional benchmark of sustainability reporting performance, evaluating the top 50 listed companies by market capitalisation across 14 jurisdictions (700 companies total).</p>
-      <p class="reveal">To reflect market realities, the index delivers two numbers: an unadjusted “base score” measuring company-level sustainability reporting performance out of 100, and a “contextualised” score out of 110 that rewards companies reporting under less developed regulatory mandates.</p>
+      <p class="reveal">The Asia Pacific Sustainability Index (APSI) establishes a regional benchmark of sustainability reporting performance, evaluating the top 50 listed companies by market capitalisation across 14 jurisdictions.</p>
+      <p class="reveal">To reflect market realities, the index delivers two numbers: an unadjusted “base score” measuring company-level sustainability reporting and a “contextualised” score that rewards companies reporting under less developed regulatory mandates.</p>
     </div>
 
+    <h3 class="kt-title reveal">APSI establishes a regional benchmark</h3>
     <div class="score-pair reveal">
       <div class="score-card">
-        <span class="score-card__label">“base score”</span>
+        <span class="score-card__label">Regional base score</span>
         <span class="score-card__num"><b data-count="75.5" data-decimals="1">75.5</b><small>/100</small></span>
         <span class="meter"><span style="--p:75.5%"></span></span>
       </div>
       <div class="score-card score-card--solid">
-        <span class="score-card__label">“contextualised” score</span>
+        <span class="score-card__label">Regional contextualised score</span>
         <span class="score-card__num"><b data-count="78.9" data-decimals="1">78.9</b><small>/110</small></span>
         <span class="meter"><span style="--p:71.7%"></span></span>
       </div>
@@ -70,7 +71,6 @@
     <div class="takeaways">
       {#each takeaways as kt}
         <a class="kt reveal" href={kt.href} style:--c={kt.color}>
-          <span class="kt__num">{kt.num}</span>
           <span class="kt__head">{kt.head}</span>
           <ul>
             {#each kt.points as point}<li>{point}</li>{/each}

@@ -67,16 +67,6 @@
       </figure>
     </div>
 
-    <div class="prose">
-      <p class="reveal">Tracked against the 15 standard Scope 3 categories as defined by the Greenhouse Gas Protocol, less than 1 in 5 disclose between 11 and 15 categories:</p>
-      <ul class="reveal">
-        <li>One to five categories disclosed: 38 per cent of assessed companies</li>
-        <li>Six to 10 categories disclosed: 38 per cent of assessed companies</li>
-        <li>11 to 15 categories disclosed: 19 per cent of assessed companies</li>
-        <li>Categories not specified: 5 per cent of assessed companies</li>
-      </ul>
-    </div>
-
     <figure class="chart reveal">
       <Donut {...scope3donut} />
     </figure>

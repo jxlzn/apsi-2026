@@ -11,7 +11,7 @@
 
     <div class="split">
       <div class="prose">
-        <p class="lead reveal">For years, carbon dominated the ESG agenda while biodiversity remained secondary. This dynamic is beginning to shift. Across Asia Pacific, 61 per cent of companies now disclose nature- or biodiversity-related data, indicating growing attention to nature-related issues.</p>
+        <p class="reveal">For years, climate dominated the ESG agenda while biodiversity remained secondary. This dynamic is beginning to shift. Across Asia Pacific, 61 per cent of companies now disclose nature- or biodiversity-related data, indicating growing attention to nature-related issues.</p>
         <p class="reveal">However, alignment with the Taskforce on Nature-related Financial Disclosures (TNFD) recommendations remains in its infancy:</p>
         <ul class="reveal">
           <li>Only 24 per cent of companies align their disclosures with TNFD recommendations</li>
@@ -38,10 +38,10 @@
       <Columns rows={nature} />
     </figure>
 
-    <div class="prose prose--callout reveal">
-      <p>The International Sustainability Standards Board (ISSB) is advancing its nature-related disclosures project from research to standard-setting. It is also developing proposed requirements that will supplement IFRS S1 and IFRS S2, drawing on the TNFD framework.</p>
-      <p>Companies should begin strengthening their capabilities to identify and assess nature-related dependencies, impacts, risks and opportunities across their operations and value chains.</p>
-      <p>This could include evaluating their reliance on natural resources and ecosystem services, such as water availability, and assessing potential exposure to biodiversity loss, water stress, and ecosystem degradation. Taking these steps can help businesses better understand their nature-related risks, inform strategic decisions, and prepare for evolving disclosure expectations.</p>
+    <div class="prose">
+      <p class="reveal">The International Sustainability Standards Board (ISSB) is advancing its nature-related disclosures project from research to standard-setting. It is also developing proposed requirements that will supplement IFRS S1 and IFRS S2, drawing on the TNFD framework.</p>
+      <p class="reveal">Companies should begin strengthening their capabilities to identify and assess nature-related dependencies, impacts, risks and opportunities across their operations and value chains.</p>
+      <p class="reveal">This could include evaluating their reliance on natural resources and ecosystem services, such as water availability, and assessing potential exposure to biodiversity loss, water stress, and ecosystem degradation. Taking these steps can help businesses better understand their nature-related risks, inform strategic decisions, and prepare for evolving disclosure expectations.</p>
     </div>
   </div>
 </section>

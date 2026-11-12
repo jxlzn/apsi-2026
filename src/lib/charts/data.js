@@ -4,7 +4,7 @@ import { C } from '../colors.js';
 // Coordinates are longitude, latitude.
 export const jurisdictions = [
   { id: 'AUS', label: 'Australia', base: 82.6, final: 84.8, pin: [133.8, -25.0], labelAt: [133.8, -22.8] },
-  { id: 'CHN', label: 'Chinese Mainland', base: 78.6, final: 82.8, pin: [103.2, 34.2], labelAt: [103.2, 36.6] },
+  { id: 'CHN', label: 'China', base: 78.6, final: 82.8, pin: [103.2, 34.2], labelAt: [103.2, 36.6] },
   { id: 'HKG', label: 'Hong Kong', base: 84.4, final: 86.9, pin: [113.9, 22.4], labelAt: [118.4, 20.4] },
   { id: 'IND', label: 'India', base: 72.2, final: 76.4, pin: [79.0, 20.2], labelAt: [79.0, 18.8] },
   { id: 'IDN', label: 'Indonesia', base: 66.1, final: 70.3, pin: [120.8, -2.2], labelAt: [131.6, 4.2] },

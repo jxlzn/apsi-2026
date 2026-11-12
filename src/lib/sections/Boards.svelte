@@ -38,7 +38,7 @@
     </div>
 
     <div class="prose">
-      <p class="reveal">Without clear visibility into compensation-link metrics and director capabilities, stakeholders cannot determine whether sustainability commitments carry real board oversight and management accountability.</p>
+      <p class="reveal">Without clear visibility into compensation-linked metrics and director capabilities, stakeholders cannot determine whether sustainability commitments carry real board oversight and management accountability.</p>
     </div>
   </div>
 </section>
