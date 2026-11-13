@@ -22,7 +22,7 @@
       <p class="reveal">The APSI findings suggest that assurance practices are still developing. Currently, 64 per cent of assessed companies conduct internal reviews of their sustainability reports, while 66 per cent obtain external assurance.</p>
     </div>
 
-    <figure class="chart reveal">
+    <figure class="chart chart--bare reveal">
       <HBars {...assurance} />
     </figure>
 

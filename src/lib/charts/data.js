@@ -20,7 +20,7 @@ export const jurisdictions = [
 ];
 
 export const magnet = {
-  max: 100, unit: '%', lab: '260px', axis: ['0', '50', '100'],
+  max: 100, unit: '%', lab: '260px',
   rows: [
     { label: 'Normative frameworks', value: 93.8, color: C.blue },
     { label: 'Materiality and stakeholder engagement', value: 76.5, color: C.blue65 },
@@ -32,7 +32,7 @@ export const magnet = {
 };
 
 export const base = {
-  max: 100, avg: { value: 75.5, label: '75.5' }, axis: ['0', '50', '100'],
+  max: 100, avg: { value: 75.5, label: '75.5' },
   rows: [
     ['Taiwan', 90.3], ['South Korea', 88.6], ['Singapore', 84.9], ['Malaysia', 84.8], ['Hong Kong', 84.4]
   ].map(([label, value]) => ({ label, value, color: C.blue })).concat(
@@ -42,7 +42,7 @@ export const base = {
 };
 
 export const context = {
-  max: 40, avg: { value: 26, label: '26' }, axis: ['0', '20', '40'],
+  max: 40, avg: { value: 26, label: '26' },
   rows: [
     ['Thailand', 33], ['The Philippines', 32], ['Australia', 31], ['Singapore', 31], ['Hong Kong', 30], ['Taiwan', 30]
   ].map(([label, value]) => ({ label, value, color: C.blue })).concat([{ label: 'South Korea', value: 9, color: C.red }])
@@ -79,7 +79,7 @@ export const scope3donut = {
 };
 
 export const assurance = {
-  max: 100, unit: '%', lab: '200px', axis: ['0', '50', '100'],
+  max: 100, unit: '%', lab: '200px',
   rows: [
     { label: 'Internal reviews', value: 64, color: C.blue45 },
     { label: 'External assurance', value: 66, color: C.blue }

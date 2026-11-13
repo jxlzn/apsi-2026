@@ -1,7 +1,7 @@
 <script>
   import { C, fmt } from '../colors.js';
 
-  let { rows, max, avg = null, unit = '', lab = null, axis = null } = $props();
+  let { rows, max, avg = null, unit = '', lab = null } = $props();
 </script>
 
 <div class="chart-body" style:--lab={lab}>
@@ -19,11 +19,4 @@
       <div class="hbars__avg" style:--a={avg.value / max}><b>{avg.label}</b></div>
     {/if}
   </div>
-  {#if axis}
-    <div class="hbars__axis">
-      <span></span>
-      <div>{#each axis as t}<span>{t}</span>{/each}</div>
-      <span></span>
-    </div>
-  {/if}
 </div>
