@@ -9,8 +9,7 @@
 
 <section class="hero" bind:this={hero}>
   <picture class="hero__media" aria-hidden="true">
-    <source media="(min-width: 761px)" srcset="./images/hero-wide.gif" width="1100" height="471">
-    <img src="./images/hero-a.gif" alt="" width="502" height="1004">
+    <img src="./images/hero_highres.gif" alt="" width="2880" height="1234">
   </picture>
   <div class="wrap hero__inner">
     <p class="hero__eyebrow">The Business Times Insights</p>
