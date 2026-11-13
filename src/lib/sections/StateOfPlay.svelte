@@ -11,7 +11,7 @@
     <SectionHead num="03" title="State of play: High adoption, uneven depth" />
     <div class="prose">
       <p class="reveal">Corporate sustainability reporting across Asia Pacific has achieved widespread institutional adoption but data credibility, maturity and depth varies widely.</p>
-      <p class="reveal">To provide benchmarking assessment of corporate sustainability, contextualised across the region, The Business Times partnered the Centre for Governance and Sustainability, NUS Business School to launch APSI.</p>
+      <p class="reveal">To provide benchmarking assessment of corporate sustainability, contextualised across the region, <i>The Business Times</i> partnered the Centre for Governance and Sustainability, NUS Business School to launch APSI.</p>
       <p class="reveal">To reflect market realities, the index delivers two numbers: an unadjusted “base score” measuring company-level sustainability reporting performance out of 100, and a “contextualised” score out of 110 that rewards companies reporting under less developed regulatory mandates.</p>
       <p class="reveal">Based on the evaluation of 700 listed companies across 14 jurisdictions and 16 stock exchanges, the regional average base score stands at 75.5 out of 100 while the context-adjusted APSI score stands at 78.9 out of 110.</p>
       <p class="reveal">Leading the regional hierarchy are Taiwan (90.3 base score / 92.8 contextualised), South Korea (88.6 base score / 96.3 contextualised), Singapore (84.9 base score / 87.2 contextualised), Malaysia (84.8 base score / 88.1 contextualised), and Hong Kong (84.4 base score / 86.9 contextualised).</p>

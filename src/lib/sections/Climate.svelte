@@ -2,7 +2,6 @@
   import SectionHead from '../components/SectionHead.svelte';
   import Funnel from '../charts/Funnel.svelte';
   import Donut from '../charts/Donut.svelte';
-  import Waffle from '../charts/Waffle.svelte';
   import { funnel, scope3donut } from '../charts/data.js';
 </script>
 
@@ -58,13 +57,12 @@
       <p class="reveal">Scope 1 and Scope 2 emissions disclosure is nearly universal, at 94 per cent and 95 per cent respectively. Most jurisdictions record disclosure rates above 90 per cent for both emission scopes.</p>
     </div>
 
-    <div class="split">
-      <div class="prose">
-        <p class="reveal">Scope 3 reporting has gone mainstream across Asia Pacific. A substantial 76 per cent of assessed companies disclose Scope 3 emissions.</p>
-      </div>
-      <figure class="waffle-fig reveal">
-        <Waffle on={76} />
-      </figure>
+    <div class="prose">
+      <p class="reveal">Scope 3 reporting has gone mainstream across Asia Pacific. A substantial 76 per cent of assessed companies disclose Scope 3 emissions.</p>
+    </div>
+
+    <div class="prose">
+      <p class="reveal">Tracked against the 15 standard Scope 3 categories as defined by the Greenhouse Gas Protocol, less than 1 in 5 disclose between 11 and 15 categories:</p>
     </div>
 
     <figure class="chart reveal">
@@ -73,7 +71,7 @@
 
     <div class="prose">
       <p class="reveal">In total, more than three-quarters (76 per cent) of reporting firms disclose 10 or fewer categories, leaving massive blind spots across upstream procurement and downstream product usage.</p>
-      <h3 class="reveal">Where transparency concentrates</h3>
+      <h3 class="reveal">Regional leaders emerge</h3>
       <p class="reveal">Japan emerges as a regional leader in supply-chain reporting, with 49 per cent of its assessed companies disclosing across 11 to 15 Scope 3 categories. Taiwan follows at 45 per cent, and South Korea at 38 per cent. For most other markets, collecting primary data from tier-1 suppliers and downstream partners remains a key operational hurdle.</p>
     </div>
 

@@ -31,16 +31,16 @@
 
     <div class="scope-cards">
       <div class="scope-card reveal">
-        <h4>Geographic Coverage</h4>
-        <p>Top 50 listed companies by market capitalisation as of 31 December 2025 across 14 Asia Pacific jurisdictions - Australia, Chinese Mainland, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam.</p>
+        <h4>Geographic coverage</h4>
+        <p>Top 50 listed companies by market capitalisation as of 31 December 2025 across 14 Asia Pacific jurisdictions - Australia, Chinese Mainland, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, The Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam.</p>
       </div>
       <div class="scope-card scope-card--wide reveal">
-        <h4>Industry Breakdown</h4>
+        <h4>Industry breakdown</h4>
         <p>A total of 700 companies listed across 16 stock exchanges were studied. These companies span 11 industries: communication services (6 per cent), consumer discretionary (9 per cent), consumer staples (10 per cent), energy (3 per cent), financials (20 per cent), healthcare (4 per cent), industrials (16 per cent), information technology (9 per cent), materials (8 per cent), real estate (10 per cent) and utilities (5 per cent).</p>
         <Donut {...industry} small />
       </div>
       <div class="scope-card reveal">
-        <h4>Data Sources &amp; Cut-off</h4>
+        <h4>Data sources &amp; Cut-off</h4>
         <p>Evaluation is based on the latest sustainability reports, annual reports, integrated reports, or climate reports published in English and publicly available as of 31 May 2026.</p>
       </div>
     </div>

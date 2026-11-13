@@ -14,7 +14,8 @@
       href: '#boards', color: 'var(--blue-65)',
       head: 'Are corporate boards equipped for sustainability?',
       points: [
-        '92 per cent of companies report formal board oversight for sustainability but only 41 per cent disclose specific director skills/competencies and 37 per cent report recent sustainability training.',
+        "92 per cent of companies report formal board oversight for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.",
+        'But only 41 per cent disclose specific director skills/competencies and 37 per cent report recent sustainability training.',
         'Opaque incentive structures: 55 per cent of firms link executive compensation to sustainability performance but only 21 per cent disclose the specific weighting assigned to these metrics.'
       ]
     },
@@ -22,8 +23,15 @@
       href: '#climate', color: 'var(--orange)',
       head: 'The climate depth challenge',
       points: [
-        'Climate disclosure is relatively well established in strategy and risk management, but only 28 per cent of companies provide quantitative scenario assessments.',
-        'Scope 3 reporting has gone mainstream, with 76 per cent of assessed companies disclosing emissions, though 76 per cent of reporting firms disclose 10 or fewer of the 15 standard categories.'
+        'Over 80 per cent of firms disclose climate risks and 70 per cent integrate them into their enterprise risk management frameworks but actual depth remains uneven',
+        '84 per cent disclose identified climate-related risks and opportunities',
+        '84 per cent explain their impact on the business, strategy and financial planning',
+        '82 per cent describe how these issues affect issuers’ strategies',
+        '64 per cent of companies run climate scenario analyses but only 28 per cent actually share quantitative financial or operational impact assessments.',
+        'Quantitative scenario analysis is heavily concentrated in select markets, led by Taiwan at 72 per cent, Hong Kong at 52 per cent and South Korea at 50 per cent. Across most other regional jurisdictions, quantitative modelling remains rare.',
+        'Scope 1 and Scope 2 emissions disclosure is nearly universal, at 94 per cent and 95 per cent respectively.',
+        'Scope 3 reporting has gone mainstream, with 76 per cent of assessed companies now disclosing supply-chain emissions.',
+        "Breadth doesn't equal depth: the vast majority of reporting firms (76 per cent) stop at disclosing 10 or fewer out of the 15 standard categories."
       ]
     },
     {
@@ -38,7 +46,7 @@
       href: '#compliance', color: 'var(--red)',
       head: 'From compliance to competitive advantage',
       points: [
-        'Regulation across the region is steadily tightening and converging around ISSB standards, value-chain emissions, and external assurance requirements.',
+        'Regulation across the region is steadily tightening and converging around ISSB standards (the global baseline of sustainability-related financial disclosure standards), value-chain emissions, and external assurance requirements.',
         'While roughly two-thirds of firms already use internal reviews (64 per cent) or external assurance (66 per cent), reporting credibility and assurance practices still have plenty of room to mature.'
       ]
     }

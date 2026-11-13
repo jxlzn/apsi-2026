@@ -11,7 +11,7 @@ export const jurisdictions = [
   { id: 'JPN', label: 'Japan', base: 80.5, final: 83.7, pin: [143.1, 43.9], labelAt: [145.6, 47.4] },
   { id: 'MYS', label: 'Malaysia', base: 84.8, final: 88.1, pin: [102.0, 4.2], labelAt: [93.4, 7.6] },
   { id: 'NZL', label: 'New Zealand', base: 68.4, final: 72.4, pin: [175.5, -37.3], labelAt: [174.2, -31.0] },
-  { id: 'PHL', label: 'Philippines', base: 58.2, final: 60.2, pin: [121.5, 17.0], labelAt: [138.4, 14.2] },
+  { id: 'PHL', label: 'The Philippines', base: 58.2, final: 60.2, pin: [121.5, 17.0], labelAt: [138.4, 14.2] },
   { id: 'SGP', label: 'Singapore', base: 84.9, final: 87.2, pin: [103.84, 1.34], labelAt: [105.4, 2.2] },
   { id: 'KOR', label: 'South Korea', base: 88.6, final: 96.3, pin: [127.9, 36.3], labelAt: [130.2, 41.2] },
   { id: 'TWN', label: 'Taiwan', base: 90.3, final: 92.8, pin: [120.95, 23.7], labelAt: [127.4, 29.2] },
@@ -59,7 +59,7 @@ export const board = {
   ]
 };
 
-export const boardRange = [['New Zealand', 10, C.red], ['Philippines', 18, C.orange, true], ['Singapore', 90, C.blue]];
+export const boardRange = [['New Zealand', 10, C.red], ['The Philippines', 18, C.orange, true], ['Singapore', 90, C.blue]];
 
 export const funnel = [
   { label: 'Disclose identified climate-related risks and opportunities', value: 84, display: '84%', color: C.blue },
@@ -112,7 +112,7 @@ export const nature = [
   ['Japan', 82, 56],
   ['Malaysia', 64, 14],
   ['New Zealand', 16, 0],
-  ['Philippines', 46, 6],
+  ['The Philippines', 46, 6],
   ['Singapore', 62, 26],
   ['South Korea', 84, 60],
   ['Taiwan', 66, 50],

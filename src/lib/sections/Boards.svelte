@@ -18,7 +18,7 @@
     </figure>
 
     <div class="prose">
-      <p class="reveal">Significant jurisdictional variation is observed in board involvement in determining material ESG factors, ranging from 10 per cent in New Zealand and 18 per cent in the Philippines to 90 per cent in Singapore, despite generally high disclosure of overall board responsibility for sustainability across the region.</p>
+      <p class="reveal">Significant jurisdictional variation is observed in board involvement in determining material ESG factors, ranging from 10 per cent in New Zealand and 18 per cent in The Philippines to 90 per cent in Singapore, despite generally high disclosure of overall board responsibility for sustainability across the region.</p>
     </div>
 
     <figure class="chart reveal">

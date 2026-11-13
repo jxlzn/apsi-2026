@@ -9,12 +9,12 @@
   <div class="wrap">
     <SectionHead num="07" title="From compliance to competitive advantage" />
     <div class="prose">
-      <p class="lead reveal">Regulatory frameworks across Asia Pacific are converging towards around three structural pillars: alignment with the ISSB Standards, expanding expectations for Scope 3 emissions reporting, and the gradual introduction of external assurance requirements.</p>
+      <p class="reveal">Regulatory frameworks across Asia Pacific are converging towards around three structural pillars: alignment with the ISSB Standards, expanding expectations for Scope 3 emissions reporting, and the gradual introduction of external assurance requirements.</p>
     </div>
     <div class="pillars">
-      <div class="pillar reveal"><span>I</span><p><b>Standardised reporting (IFRS S1 and IFRS S2 alignment):</b> Jurisdictions across the region are progressively aligning their reporting frameworks with ISSB baselines. Implementation timelines and requirements vary, with regulators generally allowing companies time to strengthen the governance processes, data systems and reporting capabilities needed to meet evolving expectations.</p></div>
-      <div class="pillar reveal"><span>II</span><p><b>Comprehensive value-chain accounting</b>: While transitional reliefs and safe-harbour provisions are common, regulators are steadily narrowing exemptions for Scope 3 emissions, requiring businesses to systematically expand coverage across all material categories.</p></div>
-      <div class="pillar reveal"><span>III</span><p><b>Towards more credible disclosures:</b> External assurance is also gaining prominence as regulators increasingly introduce or plan assurance requirements, particularly for Scope 1 and Scope 2 emissions.</p></div>
+      <div class="pillar reveal"><span>I</span><p><b>Standardised reporting (IFRS S1 and IFRS S2 alignment)</b> Jurisdictions across the region are progressively aligning their reporting frameworks with ISSB baselines. Implementation timelines and requirements vary, with regulators generally allowing companies time to strengthen the governance processes, data systems and reporting capabilities needed to meet evolving expectations.</p></div>
+      <div class="pillar reveal"><span>II</span><p><b>Comprehensive value-chain accounting</b> While transitional reliefs and safe-harbour provisions are common, regulators are steadily narrowing exemptions for Scope 3 emissions, requiring businesses to systematically expand coverage across all material categories.</p></div>
+      <div class="pillar reveal"><span>III</span><p><b>Towards more credible disclosures</b> External assurance is also gaining prominence as regulators increasingly introduce or plan assurance requirements, particularly for Scope 1 and Scope 2 emissions.</p></div>
     </div>
 
     <div class="prose">
