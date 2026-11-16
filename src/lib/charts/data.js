@@ -22,12 +22,12 @@ export const jurisdictions = [
 export const magnet = {
   max: 100, unit: '%', lab: '260px',
   rows: [
-    { label: 'Normative frameworks', value: 93.8, color: C.blue },
-    { label: 'Materiality and stakeholder engagement', value: 76.5, color: C.blue65 },
+    { label: 'Normative frameworks', value: 93.8, color: C.green },
+    { label: 'Materiality and stakeholder engagement', value: 76.5, color: C.blue },
     { label: 'Evaluation metrics and targets', value: 76.3, color: C.blue65 },
     { label: 'Governance and responsibility', value: 73.1, color: C.blue65 },
     { label: 'Thematic coverages: climate- and nature-related issues', value: 72.5, color: C.blue45 },
-    { label: 'Assurance and scope', value: 70.8, color: C.orange }
+    { label: 'Assurance and scope', value: 70.8, color: C.blue25 }
   ]
 };
 
@@ -45,7 +45,7 @@ export const context = {
   max: 40, avg: { value: 26, label: '26' },
   rows: [
     ['Thailand', 33], ['The Philippines', 32], ['Australia', 31], ['Singapore', 31], ['Hong Kong', 30], ['Taiwan', 30]
-  ].map(([label, value]) => ({ label, value, color: C.blue })).concat([{ label: 'South Korea', value: 9, color: C.red }])
+  ].map(([label, value]) => ({ label, value, color: C.blue })).concat([{ label: 'South Korea', value: 9, color: C.green }])
 };
 
 export const board = {
@@ -54,27 +54,50 @@ export const board = {
     { label: 'Formal board responsibility for sustainability', value: 92, color: C.blue },
     { label: "Active board oversight of management's monitoring efforts", value: 77, color: C.blue },
     { label: 'Direct board involvement in determining material ESG factors', value: 60, color: C.blue65 },
-    { label: 'Directors possess specific sustainability-related competencies', value: 41, color: C.orange },
-    { label: 'Sustainability-related training in the past three years', value: 37, color: C.orange }
+    { label: 'Directors possess specific sustainability-related competencies', value: 41, color: C.green },
+    { label: 'Sustainability-related training in the past three years', value: 37, color: C.green65 }
   ]
 };
 
-export const boardRange = [['New Zealand', 10, C.red], ['The Philippines', 18, C.orange, true], ['Singapore', 90, C.blue]];
+export const boardRange = [['New Zealand', 10, C.orange], ['The Philippines', 18, C.orange65, true], ['Singapore', 90, C.blue]];
 
 export const funnel = [
   { label: 'Disclose identified climate-related risks and opportunities', value: 84, display: '84%', color: C.blue },
   { label: 'Integrate them into overall risk management', value: 74, display: '74%', color: C.blue65 },
   { label: 'Conduct climate scenario analysis', value: 64, display: '64%', color: C.blue45 },
-  { label: 'Provide quantitative assessments', value: 28, display: '28%', color: C.orange }
+  { label: 'Provide quantitative assessments', value: 28, display: '28%', color: C.green }
 ];
 
 export const scope3donut = {
   center: { value: '76%', label: 'disclose 10 or fewer categories' },
+  callouts: true,
   segments: [
-    { label: 'One to five categories disclosed', value: 38, color: C.blue },
-    { label: 'Six to 10 categories disclosed', value: 38, color: C.blue45 },
-    { label: '11 to 15 categories disclosed', value: 19, color: C.green },
+    { label: 'One to five categories disclosed', value: 38, color: C.green },
+    { label: 'Six to 10 categories disclosed', value: 38, color: C.green65 },
+    { label: '11 to 15 categories disclosed', value: 19, color: C.blue },
     { label: 'Categories not specified', value: 5, color: C.grey25 }
+  ]
+};
+
+export const natureSeries = [
+  { label: 'Disclosure of nature- or biodiversity-related issues', color: C.blue },
+  { label: 'Alignment with TNFD recommendations', color: C.orange }
+];
+
+export const industryBars = {
+  max: 20, unit: '%', lab: '220px',
+  rows: [
+    { label: 'Financials', value: 20, color: '#fff' },
+    { label: 'Industrials', value: 16, color: C.blue15 },
+    { label: 'Consumer staples', value: 10, color: '#fff' },
+    { label: 'Real estate', value: 10, color: C.blue15 },
+    { label: 'Consumer discretionary', value: 9, color: '#fff' },
+    { label: 'Information technology', value: 9, color: C.blue15 },
+    { label: 'Materials', value: 8, color: '#fff' },
+    { label: 'Communication services', value: 6, color: C.blue15 },
+    { label: 'Utilities', value: 5, color: '#fff' },
+    { label: 'Healthcare', value: 4, color: C.blue15 },
+    { label: 'Energy', value: 3, color: '#fff' }
   ]
 };
 
@@ -97,9 +120,9 @@ export const industry = {
     { label: 'Information technology', value: 9, color: C.green65 },
     { label: 'Materials', value: 8, color: C.orange },
     { label: 'Communication services', value: 6, color: C.orange65 },
-    { label: 'Utilities', value: 5, color: C.red },
-    { label: 'Healthcare', value: 4, color: C.red65 },
-    { label: 'Energy', value: 3, color: C.grey45 }
+    { label: 'Utilities', value: 5, color: C.green45 },
+    { label: 'Healthcare', value: 4, color: C.grey45 },
+    { label: 'Energy', value: 3, color: C.grey25 }
   ]
 };
 

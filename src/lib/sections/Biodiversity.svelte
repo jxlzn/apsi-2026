@@ -1,8 +1,8 @@
 <script>
   import SectionHead from '../components/SectionHead.svelte';
   import Ring from '../charts/Ring.svelte';
-  import Columns from '../charts/Columns.svelte';
-  import { nature } from '../charts/data.js';
+  import GroupBars from '../charts/GroupBars.svelte';
+  import { nature, natureSeries } from '../charts/data.js';
 </script>
 
 <section class="section" id="biodiversity">
@@ -20,7 +20,7 @@
       </div>
       <div class="rings rings--stack reveal">
         <Ring value={61}>disclose nature- or biodiversity-related data</Ring>
-        <Ring value={24} extra={3} color="red">align with TNFD recommendations <em>+3% plan to</em></Ring>
+        <Ring value={24} extra={3} color="orange">align with TNFD recommendations <em>+3% plan to</em></Ring>
       </div>
     </div>
 
@@ -29,13 +29,13 @@
       <p class="reveal">South Korea (60 per cent) and Japan (56 per cent) record the highest shares of TNFD alignment, while markets like New Zealand and Vietnam do not report alignment.</p>
     </div>
 
-    <figure class="chart chart--wide reveal">
+    <figure class="chart chart--wide chart--bare reveal">
       <figcaption class="fig-title"><i>Figure 7: Nature-related disclosures (by jurisdiction)</i></figcaption>
       <div class="legend">
         <span><i style="background:var(--blue)"></i>Disclosure of nature- or biodiversity-related issues</span>
-        <span><i style="background:var(--red)"></i>Alignment with TNFD recommendations</span>
+        <span><i style="background:var(--orange)"></i>Alignment with TNFD recommendations</span>
       </div>
-      <Columns rows={nature} />
+      <GroupBars rows={nature} max={100} series={natureSeries} />
     </figure>
 
     <div class="prose">

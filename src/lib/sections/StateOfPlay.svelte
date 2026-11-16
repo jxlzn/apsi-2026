@@ -20,7 +20,7 @@
     <figure class="chart chart--map reveal">
       <div class="legend">
         <span><i style="background:var(--blue-45)"></i>Base score</span>
-        <span><i style="background:var(--blue-deep)"></i>Contextualised</span>
+        <span><i style="background:var(--orange)"></i>Contextualised</span>
       </div>
       <ScoreMap />
     </figure>

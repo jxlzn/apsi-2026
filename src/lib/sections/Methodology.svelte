@@ -1,8 +1,8 @@
 <script>
   import SectionHead from '../components/SectionHead.svelte';
   import ReportLinks from '../components/ReportLinks.svelte';
-  import Donut from '../charts/Donut.svelte';
-  import { industry } from '../charts/data.js';
+  import HBars from '../charts/HBars.svelte';
+  import { industryBars } from '../charts/data.js';
 
   const magnetRows = [
     ['M', 'Materiality and stakeholder engagement:', 'Evaluates identified material sustainability topics and engagement approaches.', 15],
@@ -37,7 +37,9 @@
       <div class="scope-card scope-card--wide reveal">
         <h4>Industry breakdown</h4>
         <p>A total of 700 companies listed across 16 stock exchanges were studied. These companies span 11 industries: communication services (6 per cent), consumer discretionary (9 per cent), consumer staples (10 per cent), energy (3 per cent), financials (20 per cent), healthcare (4 per cent), industrials (16 per cent), information technology (9 per cent), materials (8 per cent), real estate (10 per cent) and utilities (5 per cent).</p>
-        <Donut {...industry} small />
+        <div class="industry-bars">
+          <HBars {...industryBars} />
+        </div>
       </div>
       <div class="scope-card reveal">
         <h4>Data sources &amp; Cut-off</h4>

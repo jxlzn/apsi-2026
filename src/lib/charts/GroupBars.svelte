@@ -1,7 +1,7 @@
 <script>
   import { fmt } from '../colors.js';
 
-  let { rows, max, series } = $props();
+  let { rows, max, series, unit = '%' } = $props();
 </script>
 
 <div class="chart-body">
@@ -15,7 +15,7 @@
           {/each}
         </div>
         <div class="hbar__val">
-          {#each r.values as v}<span>{fmt(v)}</span>{/each}
+          {#each r.values as v}<span>{fmt(v)}{unit}</span>{/each}
         </div>
       </div>
     {/each}

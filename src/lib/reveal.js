@@ -18,7 +18,11 @@ function animateCount(el) {
 export function activate(root) {
   root.querySelectorAll('[data-w]').forEach(e => (e.style.width = e.dataset.w));
   root.querySelectorAll('[data-h]').forEach((e, i) => { e.style.transitionDelay = i * 30 + 'ms'; e.style.height = e.dataset.h; });
-  root.querySelectorAll('[data-dash]').forEach(e => e.setAttribute('stroke-dasharray', e.dataset.dash));
+  // Use the SVG presentation attribute (user units), not CSS style (px).
+  root.querySelectorAll('[data-dash]').forEach(e => {
+    e.style.strokeDasharray = '';
+    e.setAttribute('stroke-dasharray', e.dataset.dash);
+  });
   root.querySelectorAll('.waffle span').forEach(e => e.classList.toggle('on', e.dataset.on === '1'));
   root.querySelectorAll('[data-count]').forEach(e => { if (!e.dataset.done) { e.dataset.done = 1; animateCount(e); } });
 }

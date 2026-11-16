@@ -13,7 +13,7 @@
       <p class="reveal">Sustainability has firmly entered boardroom remits across Asia Pacific. Among assessed companies, 92 per cent disclose formal board responsibility for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.</p>
     </div>
 
-    <figure class="chart chart--bare reveal">
+    <figure class="chart chart--bare chart--wide reveal">
       <HBars {...board} />
     </figure>
 
@@ -21,7 +21,7 @@
       <p class="reveal">Significant jurisdictional variation is observed in board involvement in determining material ESG factors, ranging from 10 per cent in New Zealand and 18 per cent in The Philippines to 90 per cent in Singapore, despite generally high disclosure of overall board responsibility for sustainability across the region.</p>
     </div>
 
-    <figure class="chart reveal">
+    <figure class="chart chart--bare chart--wide reveal">
       <Range points={boardRange} />
     </figure>
 
@@ -34,7 +34,7 @@
       <Ring value={41}>Disclose specific sustainability-related competencies</Ring>
       <Ring value={37}>Report sustainability-related training in the past three years</Ring>
       <Ring value={55}>Tie executive remuneration to sustainability targets</Ring>
-      <Ring value={21} color="red">Specify the exact weighting of these metrics</Ring>
+      <Ring value={21} color="orange">Specify the exact weighting of these metrics</Ring>
     </div>
 
     <div class="prose">

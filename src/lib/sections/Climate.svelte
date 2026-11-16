@@ -65,7 +65,7 @@
       <p class="reveal">Tracked against the 15 standard Scope 3 categories as defined by the Greenhouse Gas Protocol, less than 1 in 5 disclose between 11 and 15 categories:</p>
     </div>
 
-    <figure class="chart reveal">
+    <figure class="chart chart--bare chart--donut reveal">
       <Donut {...scope3donut} />
     </figure>
 

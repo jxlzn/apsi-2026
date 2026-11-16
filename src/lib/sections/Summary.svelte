@@ -43,7 +43,7 @@
       ]
     },
     {
-      href: '#compliance', color: 'var(--red)',
+      href: '#compliance', color: 'var(--green)',
       head: 'From compliance to competitive advantage',
       points: [
         'Regulation across the region is steadily tightening and converging around ISSB standards (the global baseline of sustainability-related financial disclosure standards), value-chain emissions, and external assurance requirements.',

@@ -2,7 +2,7 @@
   import { C } from '../colors.js';
 
   /** Grouped columns. `rows` are { label, values } and `colors` match each value. */
-  let { rows, colors = [C.blue, C.red] } = $props();
+  let { rows, colors = [C.blue, C.orange] } = $props();
 </script>
 
 <div class="cols" role="img" aria-label="Nature-related disclosures by jurisdiction">
