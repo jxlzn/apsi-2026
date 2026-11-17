@@ -5,11 +5,11 @@
   import { industryBars } from '../charts/data.js';
 
   const magnetRows = [
-    ['M', 'Materiality and stakeholder engagement:', 'Evaluates identified material sustainability topics and engagement approaches.', 15],
+    ['M', 'Materiality and stakeholder engagement:', 'Evaluates the approaches to select material sustainability topics and to engage stakeholders.', 15],
     ['A', 'Assurance and scope:', 'Reviews external assurance, internal reviews, and reporting boundary transparency.', 15],
     ['G', 'Governance and responsibility:', 'Examines board-level oversight, sustainability skills, competencies, and training.', 20],
     ['N', 'Normative frameworks:', 'Assesses the adoption of established reporting standards.', 10],
-    ['E', 'Evaluation metrics and targets:', 'Measures short-, medium-, and long-term targets across sustainability metrics.', 10],
+    ['E', 'Evaluation metrics and targets:', 'Measures non-financial metrics and short-, medium- and long-term sustainability-related targets.', 10],
     ['T', 'Thematic coverages:', 'Analyses performance on climate-related disclosures (such as Scope 1, 2, and 3 greenhouse gas emissions) and emerging nature- or biodiversity-related issues.', 30]
   ];
 
@@ -32,7 +32,7 @@
     <div class="scope-cards">
       <div class="scope-card reveal">
         <h4>Geographic coverage</h4>
-        <p>Top 50 listed companies by market capitalisation as of 31 December 2025 across 14 Asia Pacific jurisdictions - Australia, Chinese Mainland, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, The Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam.</p>
+        <p>Top 50 listed companies by market capitalisation as of 31 December 2025 across 14 Asia Pacific jurisdictions - Australia, Mainland China, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, The Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam.</p>
       </div>
       <div class="scope-card scope-card--wide reveal">
         <h4>Industry breakdown</h4>

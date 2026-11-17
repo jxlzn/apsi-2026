@@ -251,6 +251,20 @@ a:hover { color: var(--blue); }
 .chart--map { overflow-x: auto; }
 .score-map { position: relative; min-width: 760px; }
 .score-map svg { display: block; width: 100%; height: auto; }
+.score-map__legend {
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  left: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 13.5px;
+  color: var(--ink);
+  pointer-events: none;
+}
+.score-map__legend span { display: inline-flex; align-items: center; gap: 8px; }
+.score-map__legend i { width: 14px; height: 14px; display: inline-block; }
 .score-map__sea { fill: var(--blue-5); }
 .score-map__context { fill: #fff; stroke: #fff; stroke-width: 1.4; stroke-linejoin: round; }
 .score-map__land {

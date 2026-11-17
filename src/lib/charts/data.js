@@ -4,19 +4,19 @@ import { C } from '../colors.js';
 // Coordinates are longitude, latitude.
 export const jurisdictions = [
   { id: 'AUS', label: 'Australia', base: 82.6, final: 84.8, pin: [133.8, -25.0], labelAt: [133.8, -22.8] },
-  { id: 'CHN', label: 'China', base: 78.6, final: 82.8, pin: [103.2, 34.2], labelAt: [103.2, 36.6] },
-  { id: 'HKG', label: 'Hong Kong', base: 84.4, final: 86.9, pin: [113.9, 22.4], labelAt: [118.4, 20.4] },
+  { id: 'CHN', label: 'Mainland China', base: 78.6, final: 82.8, pin: [103.2, 34.2], labelAt: [103.2, 36.6] },
+  { id: 'HKG', label: 'Hong Kong', base: 84.4, final: 86.9, pin: [113.9, 22.4], labelAt: [117.8, 14.8] },
   { id: 'IND', label: 'India', base: 72.2, final: 76.4, pin: [79.0, 20.2], labelAt: [79.0, 18.8] },
   { id: 'IDN', label: 'Indonesia', base: 66.1, final: 70.3, pin: [120.8, -2.2], labelAt: [131.6, 4.2] },
   { id: 'JPN', label: 'Japan', base: 80.5, final: 83.7, pin: [143.1, 43.9], labelAt: [145.6, 47.4] },
   { id: 'MYS', label: 'Malaysia', base: 84.8, final: 88.1, pin: [102.0, 4.2], labelAt: [93.4, 7.6] },
   { id: 'NZL', label: 'New Zealand', base: 68.4, final: 72.4, pin: [175.5, -37.3], labelAt: [174.2, -31.0] },
   { id: 'PHL', label: 'The Philippines', base: 58.2, final: 60.2, pin: [121.5, 17.0], labelAt: [138.4, 14.2] },
-  { id: 'SGP', label: 'Singapore', base: 84.9, final: 87.2, pin: [103.84, 1.34], labelAt: [105.4, 2.2] },
+  { id: 'SGP', label: 'Singapore', base: 84.9, final: 87.2, pin: [103.84, 1.34], labelAt: [113.0, -5.8] },
   { id: 'KOR', label: 'South Korea', base: 88.6, final: 96.3, pin: [127.9, 36.3], labelAt: [130.2, 41.2] },
-  { id: 'TWN', label: 'Taiwan', base: 90.3, final: 92.8, pin: [120.95, 23.7], labelAt: [127.4, 29.2] },
-  { id: 'THA', label: 'Thailand', base: 77.5, final: 79.2, pin: [100.8, 14.2], labelAt: [100.8, 17.2] },
-  { id: 'VNM', label: 'Vietnam', base: 39.8, final: 43.0, pin: [107.6, 16.2], labelAt: [115.4, 11.4] }
+  { id: 'TWN', label: 'Taiwan', base: 90.3, final: 92.8, pin: [120.95, 23.7], labelAt: [134.5, 24.8] },
+  { id: 'THA', label: 'Thailand', base: 77.5, final: 79.2, pin: [100.8, 14.2], labelAt: [94.8, 20.8] },
+  { id: 'VNM', label: 'Vietnam', base: 39.8, final: 43.0, pin: [107.6, 16.2], labelAt: [118.2, 4.0] }
 ];
 
 export const magnet = {
@@ -49,13 +49,13 @@ export const context = {
 };
 
 export const board = {
-  max: 100, unit: '%', lab: '300px',
+  max: 100, unit: '%', lab: '340px',
   rows: [
     { label: 'Formal board responsibility for sustainability', value: 92, color: C.blue },
     { label: "Active board oversight of management's monitoring efforts", value: 77, color: C.blue },
     { label: 'Direct board involvement in determining material ESG factors', value: 60, color: C.blue65 },
     { label: 'Directors possess specific sustainability-related competencies', value: 41, color: C.green },
-    { label: 'Sustainability-related training in the past three years', value: 37, color: C.green65 }
+    { label: 'Sustainability-related training for Board directors in the past three years', value: 37, color: C.green65 }
   ]
 };
 
@@ -128,8 +128,8 @@ export const industry = {
 
 export const nature = [
   ['Australia', 70, 40],
-  ['Chinese Mainland', 86, 12],
-  ['Hong Kong SAR', 80, 24],
+  ['Mainland China', 86, 12],
+  ['Hong Kong', 80, 24],
   ['India', 52, 16],
   ['Indonesia', 78, 2],
   ['Japan', 82, 56],

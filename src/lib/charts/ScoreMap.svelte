@@ -52,6 +52,11 @@
     {/each}
   </svg>
 
+  <div class="score-map__legend" aria-hidden="true">
+    <span><i style="background:var(--blue-45)"></i>Base score</span>
+    <span><i style="background:var(--orange)"></i>Contextualised</span>
+  </div>
+
   {#each items as j}
     <div
       class="score-map__label"

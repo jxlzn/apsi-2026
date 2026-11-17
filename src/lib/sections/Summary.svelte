@@ -6,7 +6,7 @@
       href: '#state-of-play', color: 'var(--blue)',
       head: 'State of play: High adoption, uneven depth',
       points: [
-        'The regional average base score stands at 75.5 out of 100 while the context-adjusted APSI score stands at 78.9 out of 110.',
+        'The regional average base score stands at 75.5 out of 100 while the contextualised regional final APSI score stands at 78.9 out of 110.',
         'Leading the regional hierarchy are Taiwan (90.3 base score / 92.8 contextualised), South Korea (88.6 base score / 96.3 contextualised), Singapore (84.9 base score / 87.2 contextualised), Malaysia (84.8 base score / 88.1 contextualised), and Hong Kong (84.4 base score / 86.9 contextualised).'
       ]
     },
@@ -64,12 +64,12 @@
     <h3 class="kt-title reveal">APSI establishes a regional benchmark</h3>
     <div class="score-pair reveal">
       <div class="score-card">
-        <span class="score-card__label">Regional base score</span>
+        <span class="score-card__label">Regional average base score</span>
         <span class="score-card__num"><b data-count="75.5" data-decimals="1">75.5</b><small>/100</small></span>
         <span class="meter"><span style="--p:75.5%"></span></span>
       </div>
       <div class="score-card score-card--solid">
-        <span class="score-card__label">Regional contextualised score</span>
+        <span class="score-card__label">Contextualised regional final APSI score</span>
         <span class="score-card__num"><b data-count="78.9" data-decimals="1">78.9</b><small>/110</small></span>
         <span class="meter"><span style="--p:71.7%"></span></span>
       </div>

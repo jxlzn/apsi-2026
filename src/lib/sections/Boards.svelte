@@ -31,8 +31,8 @@
     </div>
 
     <div class="rings reveal">
-      <Ring value={41}>Disclose specific sustainability-related competencies</Ring>
-      <Ring value={37}>Report sustainability-related training in the past three years</Ring>
+      <Ring value={41}>Disclose specific board's sustainability-related competencies</Ring>
+      <Ring value={37}>Report board's sustainability-related training in the past three years</Ring>
       <Ring value={55}>Tie executive remuneration to sustainability targets</Ring>
       <Ring value={21} color="orange">Specify the exact weighting of these metrics</Ring>
     </div>

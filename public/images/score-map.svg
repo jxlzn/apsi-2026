@@ -49,7 +49,7 @@
     <rect x="248.5" y="175.4" width="28" height="3" fill="#70BADA"/>
     <text x="298.5" y="170.4" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="15" fill="#231F20">82.8</text>
     <rect x="284.5" y="175.4" width="28" height="3" fill="#0083B5"/>
-    <text x="280.5" y="189.4" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="600" font-size="11" fill="#231F20">China</text>
+    <text x="280.5" y="189.4" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="600" font-size="11" fill="#231F20">Mainland China</text>
   </g>
   <g id="label-HKG">
     <rect x="343.1" y="275.8" width="74" height="42" fill="#fff"/>
