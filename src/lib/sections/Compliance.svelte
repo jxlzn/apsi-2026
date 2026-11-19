@@ -7,9 +7,9 @@
 
 <section class="section section--tint" id="compliance">
   <div class="wrap">
-    <SectionHead num="07" title="From compliance to competitive advantage" />
+    <SectionHead num="08" title="From compliance to competitive advantage" />
     <div class="prose">
-      <p class="reveal">Regulatory frameworks across Asia Pacific are converging towards around three structural pillars: alignment with the ISSB Standards, expanding expectations for Scope 3 emissions reporting, and the gradual introduction of external assurance requirements.</p>
+      <p class="reveal">Regulatory frameworks across the Asia-Pacific are converging towards around three structural pillars: alignment with the ISSB standards, expanding expectations for Scope 3 emissions reporting, and the gradual introduction of external assurance requirements.</p>
     </div>
     <div class="pillars">
       <div class="pillar reveal"><span>I</span><p><b>Standardised reporting (IFRS S1 and IFRS S2 alignment)</b> Jurisdictions across the region are progressively aligning their reporting frameworks with ISSB baselines. Implementation timelines and requirements vary, with regulators generally allowing companies time to strengthen the governance processes, data systems and reporting capabilities needed to meet evolving expectations.</p></div>
@@ -29,13 +29,23 @@
     <div class="prose">
       <p class="reveal">Crucially, the majority of external assurance remains confined to limited-assurance scopes covering basic operational emissions, leaving scenario models, strategy metrics and Scope 3 data largely unverified.</p>
       <p class="reveal">Specifically, 61 per cent obtain limited assurance, which is the more common form of external assurance across most markets. Limited assurance is particularly prevalent in South Korea (100 per cent), Taiwan (86 per cent), and Australia and New Zealand (both 80 per cent).</p>
-      <p class="reveal">Reasonable assurance is less common across most markets, with India standing out at 96 per cent. This is likely driven by local regulations requiring reasonable assurance over the core elements of the Business Responsibility and Sustainability Report (BRSR).</p>
+      <p class="reveal">Reasonable assurance is less common across most markets, with India standing out at 96 per cent. This is likely driven by local regulations requiring reasonable assurance over the core elements of the Business Responsibility and Sustainability Report.</p>
     </div>
+
+    <figure class="pullquote reveal">
+      <blockquote>
+        <p>Well beyond just assuring Scope 1 and 2 emissions, the entire climate statements and all supporting information should be assured. The key reason here is because climate information is vitally important for assessing the future financial performance of a company and should be treated in the same way. Assurance then also provides the trust layer and consistency in reporting so that investors and capital allocators can make proper decisions.</p>
+      </blockquote>
+      <figcaption>
+        <b>Marc Allen</b>
+        <span>Co-founder and Chief Sustainability Officer of Unravel Carbon</span>
+      </figcaption>
+    </figure>
 
     <div class="feature reveal">
       <div class="feature__text">
         <h3>The Singapore benchmark</h3>
-        <p>Singapore highlights how regulatory clarity elevates corporate disclosure. Achieving an average company base score of 84.9 out of 100—comfortably exceeding the 75.5 regional average—Singaporean listed companies demonstrate strong baseline compliance. Backed by SGX’s phased mandate requiring climate reporting aligned with ISSB standards and mandatory Scope 1 and 2 assurance, local issuers have built institutional muscle that positions them well ahead of regional peers as value-chain transparency tightens.</p>
+        <p>Singapore highlights how regulatory clarity elevates corporate disclosure. Achieving an average company base score of 84.9 out of 100 – comfortably exceeding the 75.5 regional average – Singaporean listed companies demonstrate strong baseline compliance. Backed by the Singapore Exchange’s phased mandate requiring climate reporting aligned with ISSB standards and mandatory Scope 1 and 2 assurance, local issuers have built institutional muscle that positions them well ahead of regional peers as value-chain transparency tightens.</p>
       </div>
       <div class="feature__viz">
         <SgBars />

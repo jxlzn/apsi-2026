@@ -6,33 +6,33 @@
 
   const magnetRows = [
     ['M', 'Materiality and stakeholder engagement:', 'Evaluates the approaches to select material sustainability topics and to engage stakeholders.', 15],
-    ['A', 'Assurance and scope:', 'Reviews external assurance, internal reviews, and reporting boundary transparency.', 15],
-    ['G', 'Governance and responsibility:', 'Examines board-level oversight, sustainability skills, competencies, and training.', 20],
+    ['A', 'Assurance and scope:', 'Reviews external assurance, internal reviews and reporting boundary transparency.', 15],
+    ['G', 'Governance and responsibility:', 'Examines board-level oversight, sustainability skills, competencies and training.', 20],
     ['N', 'Normative frameworks:', 'Assesses the adoption of established reporting standards.', 10],
     ['E', 'Evaluation metrics and targets:', 'Measures non-financial metrics and short-, medium- and long-term sustainability-related targets.', 10],
-    ['T', 'Thematic coverages:', 'Analyses performance on climate-related disclosures (such as Scope 1, 2, and 3 greenhouse gas emissions) and emerging nature- or biodiversity-related issues.', 30]
+    ['T', 'Thematic coverages:', 'Analyses performance on climate-related disclosures (such as Scope 1, 2 and 3 greenhouse gas emissions) and emerging nature or biodiversity-related issues.', 30]
   ];
 
   const ctxCards = [
-    ['Disclosure mandate (max 10 points):', 'Extent to which sustainability reporting is mandated by local laws or listing rules.'],
-    ['Framework alignment (max 10 points) :', 'Alignment of local requirements with international reporting standards.'],
+    ['Disclosure mandate (max 10 points):', 'The extent to which sustainability reporting is mandated by local laws or listing rules.'],
+    ['Framework alignment (max 10 points) :', 'The alignment of local requirements with international reporting standards.'],
     ['Regulatory oversight (max 10 points):', 'Supervisory mechanisms and compliance monitoring enforcement.'],
-    ['Required disclosure scope (max 10 points):', 'Granularity and specificity of mandated sustainability disclosures.']
+    ['Required disclosure scope (max 10 points):', 'The granularity and specificity of mandated sustainability disclosures.']
   ];
 </script>
 
 <section class="section" id="methodology">
   <div class="wrap">
-    <SectionHead num="09" title="Research methodology" />
+    <SectionHead num="10" title="Research methodology" />
     <div class="prose">
-      <p class="reveal"><i>The Business Times</i> partnered with the Centre for Governance and Sustainability, NUS Business School to launch the Asia Pacific Sustainability Index (APSI), which is designed to provide a benchmark for the sustainability reporting performance of listed companies across Asia Pacific. This is done by evaluating corporate sustainability reporting performance across the region while accounting for structural differences in local regulatory environments.</p>
+      <p class="reveal"><i>The Business Times</i> partnered the Centre for Governance and Sustainability, NUS Business School to launch the APSI, which is designed to provide a benchmark for the sustainability reporting performance of listed companies across the Asia-Pacific. This is done by evaluating corporate sustainability reporting performance across the region while accounting for structural differences in local regulatory environments.</p>
       <h3 class="reveal">Research scope</h3>
     </div>
 
     <div class="scope-cards">
       <div class="scope-card reveal">
         <h4>Geographic coverage</h4>
-        <p>Top 50 listed companies by market capitalisation as of 31 December 2025 across 14 Asia Pacific jurisdictions - Australia, Mainland China, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, The Philippines, Singapore, South Korea, Taiwan, Thailand, and Vietnam.</p>
+        <p>Top 50 listed companies by market capitalisation as at Dec 31, 2025, across 14 Asia-Pacific jurisdictions: Australia, mainland China, Hong Kong, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, Singapore, South Korea, Taiwan, Thailand and Vietnam.</p>
       </div>
       <div class="scope-card scope-card--wide reveal">
         <h4>Industry breakdown</h4>
@@ -42,8 +42,8 @@
         </div>
       </div>
       <div class="scope-card reveal">
-        <h4>Data sources &amp; Cut-off</h4>
-        <p>Evaluation is based on the latest sustainability reports, annual reports, integrated reports, or climate reports published in English and publicly available as of 31 May 2026.</p>
+        <h4>Data sources</h4>
+        <p>Evaluation is based on the latest sustainability reports, annual reports, integrated reports or climate reports published in English and publicly available as at May 31, 2026.</p>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
       <p class="reveal">2. A context bonus (max 10 points): Accounts for variations in local sustainability reporting requirements across jurisdictions.</p>
       <p class="reveal">The combination of these two components results in a context-adjusted company final score. At the jurisdiction level, the score represents the average final score of the 50 companies assessed in each jurisdiction. At the regional level, the overall APSI score represents the average final score of all 700 companies assessed.</p>
       <h3 class="reveal">Base score assessment (MAGNET framework)</h3>
-      <p class="reveal">The base score evaluates the comprehensiveness and transparency of companies’ sustainability disclosures and is benchmarked against internationally recognised reporting standards, including IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information, IFRS S2 Climate-related Disclosures and Global Reporting Initiative (GRI) Standards.</p>
+      <p class="reveal">The base score evaluates the comprehensiveness and transparency of companies’ sustainability disclosures and is benchmarked against internationally recognised reporting standards, including IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information, IFRS S2 Climate-related Disclosures and Global Reporting Initiative Standards.</p>
       <p class="reveal">The base score is calculated across six components under the MAGNET framework:</p>
     </div>
 
@@ -85,7 +85,7 @@
     <div class="prose">
       <p class="reveal">The raw context score is converted into a context bonus of up to 10 points.</p>
     </div>
-    <p class="formula reveal">Context bonus = (40 - Context score) × 25%</p>
+    <p class="formula reveal">Context bonus = (40 - context score) × 25%</p>
     <div class="prose">
       <p class="reveal">Under this approach, a jurisdiction with a context score of 40 receives no context bonus, while a jurisdiction with a context score of 0 receives the maximum bonus of 10 points.</p>
       <p class="reveal">The adjustment is designed to provide additional recognition to companies that demonstrate strong sustainability reporting performance while operating under comparatively less developed regulatory requirements.</p>

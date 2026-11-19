@@ -28,21 +28,14 @@
           <li>David Li</li>
         </ul>
         <ul>
-          <li>Karl Michael Gutierrez Linantud</li>
           <li>Benny Lim</li>
           <li>Quah Kai Yuan</li>
           <li>Sofia Wang</li>
         </ul>
       </div>
-      <div class="reveal">
-        <h3>With support from:</h3>
-        <ul>
-          <li>Lee Kim Siang</li>
-        </ul>
-      </div>
     </div>
     <div class="legal">
-      <p><i>The Business Times Insights: APSI 2026 i</i>s for your personal, non-commercial use only, and you may not reproduce, display or otherwise provide access to any part of the report without the prior written permission of SPH Media.</p>
+      <p><i>The Business Times Insights: APSI 2026</i> is for your personal, non-commercial use only, and you may not reproduce, display or otherwise provide access to any part of the report without the prior written permission of SPH Media.</p>
       <p>Please refer to the <a href="https://www.sph.com.sg/tnc/website/" target="_blank" rel="noopener">Content Use Conditions in our Website Terms and Conditions for further details</a>.</p>
     </div>
   </div>

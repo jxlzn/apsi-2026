@@ -17,8 +17,8 @@
     <dl class="hero__stats">
       <div><dt>listed companies</dt><dd data-count="700">700</dd></div>
       <div><dt>jurisdictions</dt><dd data-count="14">14</dd></div>
-      <div><dt>average base score <small>out of 100</small></dt><dd data-count="75.5" data-decimals="1">75.5</dd></div>
-      <div><dt>average contextualised score <small>out of 110</small></dt><dd data-count="78.9" data-decimals="1">78.9</dd></div>
+      <div><dt>regional average base score <small>out of 100</small></dt><dd data-count="75.5" data-decimals="1">75.5</dd></div>
+      <div><dt>contextualised regional final APSI score <small>out of 110</small></dt><dd data-count="78.9" data-decimals="1">78.9</dd></div>
     </dl>
     <p class="hero__partner">In partnership with the Centre for Governance and Sustainability at NUS Business School</p>
   </div>

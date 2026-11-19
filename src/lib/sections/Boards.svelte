@@ -10,7 +10,7 @@
   <div class="wrap">
     <SectionHead num="04" title="Are corporate boards equipped for sustainability?" />
     <div class="prose">
-      <p class="reveal">Sustainability has firmly entered boardroom remits across Asia Pacific. Among assessed companies, 92 per cent disclose formal board responsibility for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.</p>
+      <p class="reveal">Sustainability has firmly entered boardroom remits across the Asia-Pacific. Among assessed companies, 92 per cent disclose formal board responsibility for sustainability, 60 per cent report direct board involvement in determining material ESG factors, and 77 per cent maintain active board oversight of management's monitoring efforts.</p>
     </div>
 
     <figure class="chart chart--bare chart--wide reveal">
@@ -18,7 +18,7 @@
     </figure>
 
     <div class="prose">
-      <p class="reveal">Significant jurisdictional variation is observed in board involvement in determining material ESG factors, ranging from 10 per cent in New Zealand and 18 per cent in The Philippines to 90 per cent in Singapore, despite generally high disclosure of overall board responsibility for sustainability across the region.</p>
+      <p class="reveal">Significant jurisdictional variation is observed in board involvement in determining material ESG factors, ranging from 10 per cent in New Zealand and 18 per cent in the Philippines to 90 per cent in Singapore, despite generally high disclosure of overall board responsibility for sustainability across the region.</p>
     </div>
 
     <figure class="chart chart--bare chart--wide reveal">
